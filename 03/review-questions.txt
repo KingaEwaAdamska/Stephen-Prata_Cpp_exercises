@@ -1,0 +1,28 @@
+1. Because they differ with lenght
+2. 
+    short number =  80;
+    unsigned int number= 42110;
+    unsigned long number = 3000000000;
+3. there is no protection
+4. 33L is long type, when 33 - int
+5. No, it depends on type of character encoding
+6. 
+    cout << (char)88
+    cout << char(88)
+    char x = 88; cout << x
+7. it depends on lenght of data
+8. 
+    a) 74
+    b) 4
+    c) 0
+    d) 4.5
+    e) 3
+9. 
+    int x = int(x1) + int(x2);
+    int x = x1 + x2;
+10.
+    a) int
+    b) float
+    c) char
+    d) char32_t
+    e) double
