@@ -1,0 +1,14 @@
+1. functions
+2. It's adding content of the iostream file to code before compilation
+3. Provides the program with the definitions contained in the std namespace
+4. std::cout << "Ahoj, przygodo" <<  endl;
+5. int cheeses;
+6. cheeses=32;
+7. cin>>cheeses;
+8. cout << "We have " << cheeses << "types of cheese";
+9. 
+Function returns integers, and takes variable of type double
+Function returns nothing, and takes variable of type int
+Function returns integers, and takes nothing
+10. When function type is different than void
+11. You  have to add "std::" before cout ore use "using namespace std"
