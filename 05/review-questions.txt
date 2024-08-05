@@ -1,0 +1,13 @@
+1. If loop check condition at the beggining there is a chance that instructions will not execute once, which is impossible when condition is checked at te end
+2. 01234
+3. 
+039
+12
+4. 68
+5. k = 8
+6. 
+for (int i  = 1; i <= 64; i *= 2)
+    cout << i << " ";
+7. Put instructions in braces
+8. It's correct but useless, x=20 (024octal = 20decimal) , y=1
+9. cin>>ch skips spaces, tabs etc
