@@ -1,0 +1,36 @@
+1. Yes, its more clear and efficient
+2. Expression ++ch is char, when ch + 1 is number
+3. 
+    H$e$j$!$
+    $C$o$ $t$o$ $z$n$a$c$z$y$ ct1 = 18, ct2  = 18
+4. 
+    a) weight >= 115 && weight < 125
+    b) ch == 'q' || ch == 'Q'
+    c) x % 2 == 0 && x != 26
+    d) x % 2 == 0 && x % 26 != 0
+    e) donation >= 1000 && donation <= 2000 || guest == 1
+    f) ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z'
+5. It depends on type of expression
+6. y = (x >= 0) ? x : -x;
+7.  
+switch(ch)
+{
+        case 'A': a_grade++;
+            break;
+        case 'B': b_grade++;
+            break;
+        case 'C': c_grade++;
+            break;
+        case 'D': d_grade++;
+            break;
+        defaut: f_grade++;
+            break;
+}
+8. The program cannot interpret 'q' as an integer and would crash, but it can read '5' as a character
+9. 
+int line = 0;
+char ch;
+while (cin.get(ch) && ch != 'Q'){
+    if(ch == '\n')
+    line++;
+}
