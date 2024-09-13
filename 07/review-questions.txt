@@ -1,0 +1,77 @@
+1. prototyping, declaration, call
+2. 
+    a) void igor();
+    b) float tofu(int);
+    c) double mpg(double, double);
+    d) double summation(long * arr, int size);
+    e) double doctor(const std::string);
+    f) void ofc(boss);
+    g) std::string plot( map * map1);
+3. 
+void change(int * arr, int size, int value)
+{
+    for(int i = 0; i < size; i++)
+        arr[i] = value;
+}
+4.
+void change(int * arr_start, int arr_end, int value)
+{
+    for (int * pt = arr_start; pt!=arr_end; pt++)
+    {
+        *pt = value
+    }
+}
+5.
+double compare(double * arr; int size)
+{
+    int max = arr[0];
+    for(int i = 1; i < size; i++)
+    {
+        if (arr[i] > max)
+            max = arr[i];
+    }
+    return max;
+}
+6. Variables are copied, it change value in function but not beyond it.
+7. 
+- array of char
+- const chain in quotes
+- pointer to first character
+8. 
+int replace(char * str, char c1, char c2)
+{
+    int count = 0;
+    while (*str)
+    {
+        if (*str == c1)
+        {
+            *str == c2;
+            count++;
+        }
+        str++;
+    }
+}
+9. *"pizza" =='p'
+    "taco"[2] == 'c'
+
+10. value - glitz
+    address - &glitz
+
+11. int judge(int(*pf)(const char *));
+
+12. 
+    a)  void write(applicant ap)
+        {
+            std::cout << ap.name << ap.credit_ratings[0] << ap.credit_ratings[1] << ap.credit_ratings[2];
+        }
+    b)  void write(applicant * ap)
+        {
+            std::cout << *ap.name << ap->credit_ratings[0] << ap->credit_ratings[1] << ap->credit_ratings[2];
+        }
+
+13. typedef void (*p_f1)(applicant*);
+p_f1 p1 = f1;
+typedef const  char * (*p_f2)(const applicant *, const applicant *);
+p_f2 p2 = f2;
+p_f1  = ap[5];
+p_f2 = (*pa)[10];
