@@ -5,7 +5,8 @@
         "array": "cpp",
         "new": "cpp",
         "*.tcc": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "cstring": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

@@ -1,0 +1,54 @@
+1. short functions are the best candidates for inline functions
+2. 
+    a) void piosenka(const char* tytul, int  razy = 1)
+    b) no
+    c) yes, void piosenka(const char* tytul = "Śpij aniele mój", int razy  =1)
+3.  
+void inquote(int x){
+    std::cout <<  "\"" << x << "\"";
+}
+void inquote(double x){
+    std::cout <<  "\"" << x << "\"";
+}
+void inquote(const char * x){
+    std::cout <<  "\"" << x << "\"";
+}
+
+4. 
+void show_pudelko(const pudlko  &box){
+    std::cout << box.producent <<  std::endl;
+    std::cout << "Size: "<< box.wysokosc << "x" << box.szrokosc <<  "x" << box.dlugosc << std::endl;
+    std::cout << box.pojemnosc;
+}
+
+void show_pudelko(pudlko  &box){
+   box.pojemnosc =  box.wysokosc * box.szrokosc * box.dlugosc;
+}
+
+5. 
+void  fill(std:array<double, Seasons> & pa);
+void  show(const std:array<double, Seasons> & da);
+
+6. 
+    a) default parameter and overloading of function
+    b) default parameter (if you change sequence of parameters) and overloading of function
+    c) overloading of function
+    d) it'll have same signature
+
+7. 
+template<class T>
+T max(T  t1, T  t2){
+    return t1 > t2 ? t1 : t2;
+}
+
+8. 
+template<> pudelko max(pudelko box1, pudelko box2){
+    return box1.pojemnosc > box2.pojemnosc ? box1 : box2;
+}
+
+9.
+    v1 - float
+    v2 - float &
+    v3 - float &
+    v4 - int
+    v5 - double
