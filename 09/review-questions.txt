@@ -1,0 +1,57 @@
+1.
+    a) auto
+    b) extern
+    c) static
+    d) static
+
+2. declaration (using namespace std::cout), directive (using namespace std)
+3. 
+    #include<iostream>
+    
+    int main()
+    {
+        double x;
+        std::cout << "Podaj wartość";
+        while (! (std::cin >> x))
+        {
+            std::cout << "Należy wprowadzić liczbę: ";
+            std::cin.clear();
+            while(cin.get() != '\n')
+                continue;
+        }
+        std::cout << "Podano " << x << std::endl;
+    }
+
+4. 
+    #include<iostream>
+    
+    int main()
+    {
+        using namespace std::cout;
+        using namespace std::endl;
+        using namespace std::cin;
+        double x;
+        std::cout << "Podaj wartość";
+        while (! (std::cin >> x))
+        {
+            std::cout << "Należy wprowadzić liczbę: ";
+            std::cin.clear();
+            while(cin.get() != '\n')
+                continue;
+        }
+        std::cout << "Podano " << x << endl;
+    }
+5. separate static functions in files
+6. 
+    10
+    4
+    0
+    Funkcja other(): 10,1
+    Funkcja another(): 10, 4
+7. 
+    1
+    4, 1, 2
+    2
+    2
+    4, 1, 2
+    2
